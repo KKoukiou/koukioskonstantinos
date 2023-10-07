@@ -1,3 +1,20 @@
-.top-bar {
-  background-color: #325e3bc9 !important;
+.appbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  background-color: black;
+}
+
+.appbar svg {
+  color: blue;
+}
+
+.appbar span {
+  color: white;
+}
+
+.appbar .icon-with-text:first-child {
+  padding-left: 1rem;
 }

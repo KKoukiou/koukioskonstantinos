@@ -16,28 +16,46 @@
 .contact-secondary {
   display: flex;
   flex-direction: column;
-  row-gap: 0.5rem;
+  row-gap: 2rem;
+}
+
+.contact-address {
+  font-size: 1.5rem;
+}
+
+.contact-address svg {
+    font-size: 2rem;
+    color: steelblue;
+    border: solid 2px steelblue;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.contact-address-label {
+  color: steelblue;
+}
+
+.contact-phone {
+    font-size: 1.5rem;
+    background-color: steelblue;
+    color: white;
+    width: 15ch;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 .header {
   display: flex;
+  flex-direction: row;
   align-items: center;
-    background: linear-gradient(
-    to bottom,
-    white 0%,
-    white 50%,
-    #7cee5c29 50%,
-    #7cee5c29 100%
-  );
 }
 
 .header-contact {
-  flex: 2;
-  padding-top: 1rem;
-  padding-left: 1.5rem;
+  padding-left: 2rem;
   display: flex;
   flex-direction: column;
-  row-gap: 2rem;
+  gap: 2rem;
+  flex: 2;
 }
 
 .header-image {

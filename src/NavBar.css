@@ -1,0 +1,8 @@
+.top-bar {
+    padding-left: 1rem;
+    background-color: #dbdbdb !important;
+}
+
+.top-bar button {
+    color: steelblue;
+}

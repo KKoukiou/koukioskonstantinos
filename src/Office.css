@@ -1,0 +1,10 @@
+.office {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    align-self: center;
+}
+
+.office .carousel {
+    max-width: 100vh;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from '@mui/material';
+import { Container, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material';
 
 const openingHours = [
   { day: 'Δευτέρα', hoursMorn: '8:00 - 1:00', hoursAft: '5:00 - 8:00' },
@@ -14,9 +14,6 @@ const openingHours = [
 function WeekTimetable() {
   return (
     <Container className="timetable">
-        <Typography variant="h4" gutterBottom>
-            Ωράριο Λειτουργίας
-        </Typography>
         <TableContainer component={Paper}>
           <Table>
             <TableHead>
