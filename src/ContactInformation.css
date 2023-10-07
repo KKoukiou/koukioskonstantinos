@@ -48,10 +48,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .header-contact {
-  padding-left: 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -59,5 +60,6 @@
 }
 
 .header-image {
-  flex: 1;
+    width: 15rem;
+    border-radius: 50%;
 }

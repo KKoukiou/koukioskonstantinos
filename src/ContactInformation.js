@@ -1,7 +1,6 @@
 // src/components/ContactInformation.js
 import React from 'react';
 import { Typography } from '@mui/material';
-import { AspectRatio } from '@mui/joy';
 import { PinDrop } from "@mui/icons-material";
 
 import "./ContactInformation.css";
@@ -31,11 +30,7 @@ const ContactInformation = () => {
               </div>
           </div>
       </div>
-      <div className="header-image">
-          <AspectRatio variant="plain" objectFit="contain">
-              <img src="./images/koukios.jpg" alt="koukios" />
-          </AspectRatio>
-      </div>
+      <img className="header-image" src="./images/koukios.jpg" alt="koukios" />
   </div>
   );
 };
