@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 import "./NavBar.css";
 
-const pages = [{ name: 'Αρχικη', id: '' }, { name: 'Ωραριο λειτουργιας', id: 'timetable' }]; //, { name: 'Βιογραφικό', id: 'bio' }];
+const pages = [{ name: 'Αρχικη', id: '' }, { name: 'Ωραριο λειτουργιας', id: 'timetable' }, { name: 'Βιογραφικo', id: 'bio' }];
 
 function ResponsiveAppBar() {
     const navigate = useNavigate();
